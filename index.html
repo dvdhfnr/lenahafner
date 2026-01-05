@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lena Hafner</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- FontAwesome CDN -->
+    <style>
+        /* Den gesamten Body auf die volle Bildschirmgröße setzen */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('image.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container für die Icons */
+        .icon-container {
+            display: flex;
+            justify-content: space-around;
+            width: 250px;  /* Breite des Containers */
+        }
+
+        /* Die Icons stilisieren */
+        .icon-container a {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.6);  /* Transparenter Hintergrund */
+            border-radius: 50%;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        /* Hover-Effekt */
+        .icon-container a:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Farben für jedes soziale Netzwerk */
+        .instagram { background-color: #E4405F; }
+        .facebook { background-color: #3b5998; }
+        .youtube { background-color: #FF0000; }
+        .mail { background-color: #0077b5; }
+    </style>
+</head>
+<body>
+
+    <div class="icon-container">
+        <!-- Links zu den sozialen Netzwerken und der Mail-Funktion -->
+        <a href="https://www.instagram.com/lena_hafner_music" class="instagram" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/lenahafnerofficial" class="facebook" target="_blank" title="Facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCP6HH8mtxebDfR6qh06eG8Q" class="youtube" target="_blank" title="YouTube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="mailto:lenahafner@gmx.com" class="mail" title="E-Mail">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+</body>
+</html>
+
